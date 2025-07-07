@@ -20,7 +20,7 @@ public class TesteAtributos {
 		
 		Cliente cliente2 = new Cliente();
 		cliente2.descricaoCliente = "teste2";
-		
+			
 		System.out.println(cliente1.descricaoCliente);
 		System.out.println(cliente1.idade);
 
