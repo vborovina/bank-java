@@ -1,5 +1,6 @@
 package com.bank.study.testes;
 
+import com.bank.model.PessoaAbs;
 import com.bank.study.atributos.Cliente;
 import com.bank.study.atributos.Pessoa;
 
@@ -23,6 +24,7 @@ public class TesteAtributos {
 			
 		System.out.println(cliente1.descricaoCliente);
 		System.out.println(cliente1.idade);
+		
 
 	}
 
