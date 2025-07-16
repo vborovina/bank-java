@@ -32,7 +32,15 @@ public class EstudoCondicoes {
 		//System.out.println(texto);
 
 		System.out.println(sexo.equals("F") ? "Feminino" : "Masculino");
-		
+
+		String teste = "oi";
+		switch (teste){
+			case "oi": System.out.println("teste é 1");
+			break;
+			case "oii": System.out.println("Teste é 2");
+			break;
+			default: System.out.println("Nao entrou em nenhum");
+		}
 	}
 
 }

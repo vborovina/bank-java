@@ -14,16 +14,16 @@ public class TesteAtributos {
 		//Scanner scan = new Scanner(System.in);
 		System.out.println(pessoa.getNome());
 		
-		Cliente.descricaoCliente = "Descricao do cliente.......";
+		//Cliente.descricaoCliente = "Descricao do cliente.......";
 		
-		Cliente cliente1 = new Cliente();
-		cliente1.descricaoCliente = "teste1";
+		//Cliente cliente1 = new Cliente();
+		//cliente1.descricaoCliente = "teste1";
 		
-		Cliente cliente2 = new Cliente();
-		cliente2.descricaoCliente = "teste2";
+		//Cliente cliente2 = new Cliente();
+		/*cliente2.descricaoCliente = "teste2";
 			
 		System.out.println(cliente1.descricaoCliente);
-		System.out.println(cliente1.idade);
+		System.out.println(cliente1.idade);*/
 		
 
 	}
