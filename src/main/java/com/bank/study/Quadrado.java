@@ -20,6 +20,11 @@ public class Quadrado implements Forma {
 	public double calcularArea() {
 		return this.lado * this.lado;
 	}
+
+	@Override
+	public String getNomeFormaGeometrica() {
+		return "Quadrado";
+	}
 	
 	
 }

@@ -30,6 +30,10 @@ public class Retangulo implements Forma{
 	public double calcularArea() {
 		return this.lado * this.altura;
 	}
-	
-	
+
+	@Override
+	public String getNomeFormaGeometrica() {
+		return "Retangulo";
+	}
+
 }
