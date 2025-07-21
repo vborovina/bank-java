@@ -7,7 +7,7 @@ import com.bank.model.PessoaAbs;
 public class Testes {
 
 	public static void main(String[] args) {
-		PessoaAbs funcionario = new Funcionario("123456", "Antonio Serra","77777");
+		PessoaAbs funcionario = new Funcionario("123456", "Antonio Serra","77777", "gerente");
 		Cliente cliente = new Cliente("987654", "Victor");
 		
 		cliente.setTipoCliente("PREMIUM");
