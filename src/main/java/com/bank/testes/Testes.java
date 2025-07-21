@@ -3,17 +3,23 @@ package com.bank.testes;
 import com.bank.model.Cliente;
 import com.bank.model.Funcionario;
 import com.bank.model.PessoaAbs;
+import com.bank.repository.ClienteDAO;
+import com.bank.repository.impl.ClienteDAOImpl;
 
 public class Testes {
 
 	public static void main(String[] args) {
-		PessoaAbs funcionario = new Funcionario("123456", "Antonio Serra","77777", "gerente");
-		Cliente cliente = new Cliente("987654", "Victor");
+		ClienteDAO dataBaseCli = new ClienteDAOImpl();
 		
-		cliente.setTipoCliente("PREMIUM");
+		Cliente cliente = new Cliente("123456", "Antonio Serra");
+		Cliente cliente2 = new Cliente("987645", "Victor");
 		
-		System.out.println(funcionario.toString());
-		System.out.println(cliente.toString());
+		dataBaseCli.create(cliente);
+		dataBaseCli.create(cliente2);
+		
+		dataBaseCli.getAll().forEach(c ->{
+			System.out.println(c.getNome());
+		});
 
 	}
 
